@@ -1,8 +1,11 @@
-public static void main(Sting[] args){
-  System.out.ptintln("hello");
-  System.out.ptintln("Good Morning");
+class Greet{
+pbulic static void greet(){
    System.out.ptintln("hello");
-  System.out.ptintln("Good Morning");
+}  
+public static void main(Sting[] args){
+  // now this is more efficient 
+greet();
   
 }
 
+}
